@@ -1,0 +1,39 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyONSEVJo7KazNtoZHcVS89q",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sebast12123123/Inteligencia-Artificial-2/blob/main/sesion5\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "El Machine Learning (ML) es una rama de la Inteligencia Artificial que permite que los sistemas aprendan a partir de datos, identificando patrones para realizar predicciones, clasificaciones o tomar decisiones. En el ML de extremo a extremo (End-to-End ML) se tiene en cuenta todo el proceso, desde la recolección, limpieza y preparación de los datos, hasta el entrenamiento, evaluación, implementación y funcionamiento del modelo con nuevos datos. Este enfoque busca que el sistema pueda transformar directamente los datos de entrada en un resultado útil, reduciendo la necesidad de programar manualmente cada etapa. Para desarrollar estos sistemas es importante seleccionar los datos adecuados, elegir un algoritmo, entrenar el modelo y comprobar su precisión mediante diferentes métricas. El ML se aplica actualmente en áreas como reconocimiento de imágenes y voz, sistemas de recomendación, detección de fraudes, asistentes virtuales, análisis de información y predicción de comportamientos."
+      ],
+      "metadata": {
+        "id": "wy0My8cj6sk7"
+      }
+    }
+  ]
+}
