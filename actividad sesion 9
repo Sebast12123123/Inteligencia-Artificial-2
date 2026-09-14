@@ -1,0 +1,41 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOnbdrCHjnc1ZQZjxkMWJMZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sebast12123123/Inteligencia-Artificial-2/blob/main/actividad%20sesion%209\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Resumen de Machine Learning y clasificación\n",
+        "\n",
+        "El Machine Learning (ML) es una rama de la inteligencia artificial que permite a los sistemas aprender patrones a partir de datos para realizar predicciones o tomar decisiones sin ser programados directamente para cada caso. En un problema de clasificación, el objetivo es asignar una categoría a un dato, por ejemplo, determinar si un paciente puede tener una enfermedad o si un correo es spam. El proceso comienza con la introducción y preparación de los datos, donde se recopilan, limpian y organizan características o variables que serán utilizadas por el modelo. Uno de los métodos más básicos es el clasificador binario, que solamente tiene dos posibles resultados, como positivo/negativo, enfermo/sano o spam/no spam. Para evaluar sus resultados se utiliza la matriz de confusión, que contiene cuatro casos: verdaderos positivos (TP), verdaderos negativos (TN), falsos positivos (FP) y falsos negativos (FN). A partir de estos valores se calculan métricas como la precisión (precision), que indica qué proporción de las predicciones positivas realizadas por el modelo fueron realmente positivas, mediante la fórmula TP / (TP + FP). También existen otras métricas como exactitud, recall y F1-score, que permiten evaluar diferentes aspectos del rendimiento. La curva ROC permite analizar el comportamiento de un clasificador según diferentes umbrales y relaciona la tasa de verdaderos positivos con la tasa de falsos positivos; mientras más cerca esté su área bajo la curva (AUC) de 1, mejor capacidad de clasificación tiene el modelo. Finalmente, la clasificación multiclase o clasificación con múltiples clases permite que un modelo seleccione entre más de dos categorías, por ejemplo, identificar si una imagen corresponde a un perro, gato, caballo o ave. En conjunto, estos métodos permiten construir, evaluar y comparar modelos de Machine Learning para resolver problemas de clasificación en diferentes áreas."
+      ],
+      "metadata": {
+        "id": "dtH1uC_PK4bG"
+      }
+    }
+  ]
+}
