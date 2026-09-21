@@ -1,0 +1,39 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM+smA45P3+CdkozIhVSiYt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sebast12123123/Inteligencia-Artificial-2/blob/main/PCA%20sesion%2013\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "a reducción de dimensionalidad es un conjunto de técnicas de Machine Learning que busca disminuir el número de características de los datos conservando la mayor cantidad posible de información. Cuando un conjunto tiene demasiadas variables aparece la maldición de la dimensionalidad, donde los datos se vuelven más dispersos, aumenta el costo computacional y algunos algoritmos pierden efectividad. Para solucionar esto existen métodos de proyección, que transforman los datos desde un espacio de muchas dimensiones hacia uno más pequeño, como PCA, que busca conservar la mayor variabilidad posible. También existen métodos basados en aprendizaje, que intentan descubrir estructuras o relaciones más complejas en los datos. En un tutorial técnico, el proceso generalmente consiste en preparar y estandarizar los datos, aplicar el método de reducción, seleccionar el número adecuado de dimensiones y utilizar los nuevos datos para visualización, clasificación o predicción. Otro método importante es LLE (Locally Linear Embedding), una técnica de aprendizaje no lineal que busca conservar las relaciones entre puntos cercanos: primero identifica los vecinos de cada dato, después calcula cómo representar cada punto mediante sus vecinos y finalmente crea una representación de menor dimensión manteniendo esas relaciones locales. En conjunto, estas técnicas permiten trabajar con datos complejos de forma más sencilla y eficiente, porque aparentemente a los humanos les pareció buena idea guardar 500 variables cuando 10 eran suficientes."
+      ],
+      "metadata": {
+        "id": "TuhRDtgxRUhb"
+      }
+    }
+  ]
+}
