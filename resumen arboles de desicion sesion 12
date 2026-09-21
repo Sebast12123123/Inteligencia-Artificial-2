@@ -1,0 +1,39 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMs4T7taJJstjEYLLMlNeuA",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sebast12123123/Inteligencia-Artificial-2/blob/main/resumen%20arboles%20de%20desicion%20sesion%2012\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Los árboles de decisión son algoritmos de Machine Learning utilizados principalmente para resolver problemas de clasificación y regresión. Su funcionamiento consiste en dividir los datos mediante preguntas o condiciones hasta llegar a un resultado final. Durante el entrenamiento, el árbol busca las mejores divisiones para separar los datos y obtener predicciones más precisas. Cada división genera nodos y ramas, mientras que las hojas representan los resultados finales. Para realizar una predicción, un nuevo dato sigue las ramas dependiendo de sus características hasta llegar a una hoja. En clasificación, además de predecir una clase, el árbol puede calcular la probabilidad de pertenecer a cada clase. CART es un método utilizado para construir árboles de decisión y seleccionar las mejores divisiones de los datos. Para esto puede utilizar medidas de impureza, como el índice Gini, que indica qué tan mezcladas están las clases dentro de un nodo. Una impureza baja significa que los datos pertenecen principalmente a una misma clase. Sin embargo, un árbol puede crecer demasiado y aprenderse los datos de entrenamiento, generando sobreajuste. Para evitarlo se utiliza la regularización, limitando aspectos como la profundidad del árbol, el número de hojas o la cantidad mínima de datos necesarios para realizar una división. De esta manera se obtiene un modelo más sencillo y capaz de funcionar correctamente con datos nuevos."
+      ],
+      "metadata": {
+        "id": "iX0r60dWJsgS"
+      }
+    }
+  ]
+}
